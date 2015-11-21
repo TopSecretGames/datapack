@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="128" height="128" tilewidth="64" tileheight="32" nextobjectid="27">
+ <tileset firstgid="1" name="isometric_grass_and_water" tilewidth="64" tileheight="64" tilecount="24">
+  <tileoffset x="0" y="16"/>
+  <image source="gw.png" width="256" height="384"/>
+  <terraintypes>
+   <terrain name="Grass" tile="0"/>
+   <terrain name="Water" tile="22"/>
+  </terraintypes>
+  <tile id="0" terrain="0,0,0,0"/>
+  <tile id="1" terrain="0,0,0,0"/>
+  <tile id="2" terrain="0,0,0,0"/>
+  <tile id="3" terrain="0,0,0,0"/>
+  <tile id="4" terrain="0,0,0,1"/>
+  <tile id="5" terrain="0,0,1,0"/>
+  <tile id="6" terrain="1,0,0,0"/>
+  <tile id="7" terrain="0,1,0,0"/>
+  <tile id="8" terrain="0,1,1,1"/>
+  <tile id="9" terrain="1,0,1,1"/>
+  <tile id="10" terrain="1,1,1,0"/>
+  <tile id="11" terrain="1,1,0,1"/>
+  <tile id="12" terrain="0,0,1,1"/>
+  <tile id="13" terrain="1,0,1,0"/>
+  <tile id="14" terrain="1,1,0,0"/>
+  <tile id="15" terrain="0,1,0,1"/>
+  <tile id="16" terrain="0,0,1,1"/>
+  <tile id="17" terrain="1,0,1,0"/>
+  <tile id="18" terrain="1,1,0,0"/>
+  <tile id="19" terrain="0,1,0,1"/>
+  <tile id="20" terrain="0,1,1,0"/>
+  <tile id="21" terrain="1,0,0,1"/>
+  <tile id="22" terrain="1,1,1,1"/>
+  <tile id="23" terrain="1,1,1,1"/>
+ </tileset>
+ <tileset firstgid="25" name="ground1" tilewidth="64" tileheight="32" tilecount="16">
+  <image source="ground1.png" width="1024" height="32"/>
+ </tileset>
+ <tileset firstgid="41" name="ground2" tilewidth="64" tileheight="32" tilecount="16">
+  <image source="ground2.png" width="1024" height="32"/>
+ </tileset>
+ <tileset firstgid="57" name="tree1" tilewidth="115" tileheight="168" tilecount="1">
+  <image source="tree1.png" width="115" height="168"/>
+ </tileset>
+ <tileset firstgid="58" name="tree2" tilewidth="112" tileheight="195" tilecount="1">
+  <image source="tree2.png" width="112" height="195"/>
+ </tileset>
+ <tileset firstgid="59" name="pointer" tilewidth="32" tileheight="54" tilecount="1">
+  <image source="pointer.png" trans="ff00ff" width="32" height="54"/>
+ </tileset>
+ <tileset firstgid="60" name="knight_idle_s" tilewidth="67" tileheight="137" tilecount="10">
+  <image source="characters/knight/IDLE/0.png" trans="ff00ff" width="670" height="137"/>
+  <tile id="9">
+   <animation>
+    <frame tileid="0" duration="100"/>
+    <frame tileid="1" duration="100"/>
+    <frame tileid="2" duration="100"/>
+    <frame tileid="3" duration="100"/>
+    <frame tileid="4" duration="100"/>
+    <frame tileid="5" duration="100"/>
+    <frame tileid="6" duration="100"/>
+    <frame tileid="7" duration="100"/>
+    <frame tileid="8" duration="100"/>
+    <frame tileid="9" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="70" name="teleport-stone" tilewidth="64" tileheight="89" tilecount="1">
+  <image source="teleport-stone.png" trans="ff00ff" width="64" height="89"/>
+ </tileset>
+ <tileset firstgid="71" name="castle1" tilewidth="512" tileheight="525" tilecount="1">
+  <image source="castle1.png" trans="ff00ff" width="512" height="525"/>
+ </tileset>
+ <layer name="water" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt2rkRwCAMBEDcBf1X6hJsYOzgboONeEYBgU7DHGPMB9fh+uq+3TNv9q7WsFPzl/X/eQ89vBkAgB56PwAA6KH/BwAAAMhnBgQAAAD55H8AAOig9wcAAOgg/wEAAAAAAABABn8AAAAAIJvsDwAAkE/2AwAAgA5mAAAAAJBP/gcAAOgg/wEAAABALvM/AAAAyCf/AwBAD/0/AABAvhsn0v32
+  </data>
+ </layer>
+ <layer name="ground" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt2MtqxCAUBmCz6GVVWrrp+z9pk8XAIMdLpoXR+H0gSawMhf8YNSkBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8bnv2P8DTbHeNtRyZv+zta2+vSQ2s5sj7c28/e/tIf8tf7cznyOx9b997e0vyX82W/m/9t4eY19nsSmPlvwb5r630vsj71MM1RLnKfx3RHjGqAflfS553fo3qoVUjzKOWZakeWjXBPEr5l74b5P3yn1s0x2/Xnvku/3G1MqnN5VKu9gDz6M0/f26910vvAMZT+47Xyj/vj57ze8ZS+4ZTW8ejc0AKxtoDjq+VX9RXyvbMXoEx9K7xrb5UGSv/cT0y13tyz3+fcUU53q5nz4Hyn0vtvHZ2/rd+jzG11vl8XG/N5H9jXLX1/P6+tvZH1/yesZ3d//WeBZhDK9uetSEF98yhtHfvnful2mAOUVatvV3pmfmU5m7tjJePl//19GYq++uRKQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvX4BGfoB2Q==
+  </data>
+ </layer>
+ <layer name="road" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt1+tOwkAQBtB9DRRUflpQ4f1fTiZ0wlKqEo1t2p6TTFp6IZt8e2spAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADCszameT/XUHtfjNoeBvZRz7pu2nkZtDUNblXP+q7bkvywP5TzuI/t1e85y5NiP7LMvsByRe+Sf6//LqK1haDn2t+W89m/HbQ4Dizl/Wy75r8ZtDgN5qyr6QK4Dz2M2isFE7h/lth/If/525ZL/vjqvi3k6nKop/Zl3rzFPx3Kb/Vf5d49MX673fX2gL39zwrzs27pnDqgzl/80xPr++s39Oudu3vmbaYq9fezxYo1vOvea9n7u//rGetPzHtMR+R47x7qib7yX6+/+rEO59Ind0A3nzyKzzK471vO8q14Hsm805dJHmJbMLjJ9vOP52Acey/V+cNf+x/6f2sj/yTEc+7/jHc/nnHGorlkDpivzfP/FOyn3gL4DliPGf8z3+e1Y7xlZnlxHWK6YCw4/PgUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATNEnt5UjSg==
+  </data>
+ </layer>
+ <objectgroup name="spawn point">
+  <object id="24" name="spawn1" x="2199.16" y="2174.17" width="31" height="26.3333"/>
+  <object id="25" name="spawn2" x="2579" y="2075" width="27" height="21">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <layer name="castle" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJztzgENAAAIA6C3s38jY3w6SEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwDfTDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJy0h3gBI
+  </data>
+ </layer>
+ <layer name="tree1" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt10ENAAAIAzFs4d8YEnhCoFVwyV6LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo5XQAAACwhn9wn40BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgrwLvkQCs
+  </data>
+ </layer>
+ <layer name="tree2" width="128" height="128">
+  <data encoding="base64" compression="zlib">
+   eJzt1zENAEAIA0B04V8Y0wv4CQJ3Cro0aSMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4E92BwAAAGAE/xAAeOwC2Em3AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG4qjnsA6Q==
+  </data>
+ </layer>
+</map>
