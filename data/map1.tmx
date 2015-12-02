@@ -86,12 +86,12 @@
   </data>
  </layer>
  <objectgroup name="spawn point">
-  <object id="24" name="spawn1" x="2199.16" y="2174.17" width="31" height="26.3333"/>
+  <object id="24" name="spawn1" x="2282.16" y="2215.17" width="31" height="26.3333"/>
   <object id="25" name="spawn2" x="2579" y="2075" width="27" height="21">
    <ellipse/>
   </object>
  </objectgroup>
- <layer name="castle" width="128" height="128">
+ <layer name="castle" width="128" height="128" visible="0">
   <data encoding="base64" compression="zlib">
    eJztzgENAAAIA6C3s38jY3w6SEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwDfTDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJy0h3gBI
   </data>
