@@ -99,7 +99,7 @@
   <object id="31" name="spawn666" x="20" y="628" width="17.6667" height="7.66667">
    <ellipse/>
   </object>
-  <object id="32" name="spawn665" x="379.833" y="28.8333" width="17.6667" height="7.66667">
+  <object id="32" name="spawn665" x="65.833" y="4022.83" width="17.6667" height="7.66667">
    <ellipse/>
   </object>
  </objectgroup>
@@ -110,7 +110,7 @@
  </layer>
  <layer name="tree1" width="128" height="128">
   <data encoding="base64" compression="zlib">
-   eJzt10ENAAAIAzFs4d8YEnhCoFVwyV6LAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo5XQAAACwhn9wn40BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgrwLvkQCs
+   eJzt18EJAEAIA0Hbsv/GfF0HJ4LOVBDYVyIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4I+cHkArfQEAgMc/2E9jAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuKsAmyAA5Q==
   </data>
  </layer>
  <layer name="tree2" width="128" height="128">
